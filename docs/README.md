@@ -8,6 +8,7 @@
 
 - [Agents（代理）](./agents.md) — 27个专业化子代理
 - [Commands（斜杠命令）](./commands.md) — 59个快捷命令
+- [Rules（规则集）](./rules.md) — 59个规则文件
 - Skills（技能库）— 115个技能，按类别分组：
   - [语言特定技能](./skills-language.md) — Go / Kotlin / Python / Rust / C++ / Java / Swift / TypeScript / Perl
   - [框架技能](./skills-framework.md) — Django / Laravel / Spring Boot / Ktor / Next.js / SwiftUI / Android / Nuxt
