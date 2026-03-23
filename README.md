@@ -109,6 +109,49 @@ ecc-guide/
             └── audit-counts.sh
 ```
 
+## 如何更新本仓库
+
+当 ECC 发布新版本后，使用 skill 自动更新文档：
+
+### 1. 进入仓库目录
+
+```bash
+cd /Users/lvpengbin/ecc-guide
+git pull origin master
+```
+
+### 2. 在 Claude Code 中触发更新
+
+直接对话：
+
+```
+full update and audit
+```
+
+Skill 会自动：
+- 拉取最新 ECC 仓库
+- 扫描所有 agents/commands/skills/rules
+- 重新生成 `docs/` 下的所有文件
+- 运行 5 项审核校验
+
+### 3. 提交并推送
+
+```bash
+git add docs/
+git commit -m "Update docs to ECC v{version}"
+git push origin master
+```
+
+### 快速参考
+
+| 命令 | 说明 |
+|------|------|
+| `update ecc-guide` | 只更新文档，不审核 |
+| `audit ecc guide` | 只审核，不更新 |
+| `full update and audit` | 完整流程（推荐） |
+
+审核报告保存在 `docs/audit-report.md`。
+
 ## License
 
 MIT
