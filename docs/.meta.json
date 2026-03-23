@@ -2,6 +2,13 @@
   "ecc_version": "0.1.0",
   "ecc_source": "https://github.com/affaan-m/everything-claude-code",
   "generated_at": "2026-03-23T09:30:00Z",
+  "ecc_snapshot": {
+    "branch": "main",
+    "commit": "df4f2df297847687bd8835c440803de36966b2c9",
+    "commit_short": "df4f2df",
+    "commit_message": "feat: add 6 gap-closing skills — browser QA, design system, product lens, canary watch, benchmark, safety guard",
+    "synced_at": "2026-03-23T09:30:00Z"
+  },
   "counts": {
     "agents": 28,
     "commands": 60,
