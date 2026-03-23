@@ -2,7 +2,7 @@
 
 Everything Claude Code（ECC）的完整中文指南，包含 27 个代理、59 个命令、115 个技能和 59 个规则集的详细说明。同时提供一个三合一 skill，用于自动更新和审核文档。
 
-基于 [affaan-m/everything-claude-code](https://github.com/affaan-m/everything-claude-code)。
+基于 [everything-claude-code](https://github.com/everything-claude-code/everything-claude-code)。
 
 ## 阅读文档
 
