@@ -1,6 +1,6 @@
 # Agents（代理）
 
-共 27 个专业化子代理，可被主 Claude 自动调用。
+共 28 个专业化子代理，可被主 Claude 自动调用。
 
 ---
 
@@ -22,6 +22,7 @@
 | 12 | typescript-reviewer | TypeScript/JS | 审查类型安全、异步正确性、Node/Web 安全和惯用模式 |
 | 13 | pytorch-build-resolver | PyTorch | 修复 PyTorch 运行时、CUDA 和训练错误（张量形状、梯度问题等） |
 | 14 | database-reviewer | SQL/Supabase | PostgreSQL 查询优化、模式设计、安全和性能 |
+| 15 | flutter-reviewer | Flutter/Dart | 审查 Flutter 组件最佳实践、状态管理模式、Dart 惯例、性能陷阱和无障碍性 |
 
 ---
 

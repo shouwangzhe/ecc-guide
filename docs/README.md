@@ -6,10 +6,10 @@
 
 ## 目录
 
-- [Agents（代理）](./agents.md) — 27个专业化子代理
-- [Commands（斜杠命令）](./commands.md) — 59个快捷命令
-- [Rules（规则集）](./rules.md) — 59个规则文件
-- Skills（技能库）— 115个技能，按类别分组：
+- [Agents（代理）](./agents.md) — 28个专业化子代理
+- [Commands（斜杠命令）](./commands.md) — 60个快捷命令
+- [Rules（规则集）](./rules.md) — 64个规则文件
+- Skills（技能库）— 126个技能，按类别分组：
   - [语言特定技能](./skills-language.md) — Go / Kotlin / Python / Rust / C++ / Java / Swift / TypeScript / Perl
   - [框架技能](./skills-framework.md) — Django / Laravel / Spring Boot / Ktor / Next.js / SwiftUI / Android / Nuxt
   - [架构与工程技能](./skills-engineering.md) — API 设计 / 数据库 / Docker / 部署 / 安全 / TDD
@@ -20,11 +20,11 @@
 
 | 类别 | 数量 |
 | --- | --- |
-| Agents | 27 |
-| Commands | 59 |
-| Skills | 115 |
-| Rules（规则集） | 59 |
-| **合计** | **260** |
+| Agents | 28 |
+| Commands | 60 |
+| Skills | 126 |
+| Rules（规则集） | 64 |
+| **合计** | **278** |
 
 ## Rules 分类
 
@@ -33,4 +33,4 @@
 | 语言 | 规则数 |
 | --- | --- |
 | common（通用） | 9 |
-| Go / Kotlin / Python / Rust / C++ / Java / Swift / TypeScript / Perl / PHP | 各5 |
+| Go / Kotlin / Python / Rust / C++ / C# / Java / Swift / TypeScript / Perl / PHP | 各5 |

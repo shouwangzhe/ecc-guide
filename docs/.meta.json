@@ -1,12 +1,12 @@
 {
   "ecc_version": "0.1.0",
   "ecc_source": "https://github.com/affaan-m/everything-claude-code",
-  "generated_at": "2026-03-23T00:00:00Z",
+  "generated_at": "2026-03-23T09:30:00Z",
   "counts": {
-    "agents": 27,
-    "commands": 59,
-    "skills": 115,
-    "rules": 59
+    "agents": 28,
+    "commands": 60,
+    "skills": 126,
+    "rules": 64
   },
   "doc_files": [
     "agents.md",
@@ -15,6 +15,27 @@
     "skills-framework.md",
     "skills-engineering.md",
     "skills-ai-agent.md",
-    "skills-business.md"
-  ]
+    "skills-business.md",
+    "rules.md"
+  ],
+  "last_update": {
+    "date": "2026-03-23",
+    "changes": {
+      "agents": ["flutter-reviewer"],
+      "commands": ["prune"],
+      "skills": [
+        "benchmark",
+        "browser-qa",
+        "canary-watch",
+        "click-path-audit",
+        "design-system",
+        "flutter-dart-code-review",
+        "product-lens",
+        "safety-guard",
+        "santa-method",
+        "skill-comply"
+      ],
+      "rules": ["csharp (5 files)", "java (5 files)"]
+    }
+  }
 }
