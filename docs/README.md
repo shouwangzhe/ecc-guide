@@ -1,6 +1,6 @@
 # Everything Claude Code 完整指南
 
-> 基于 [everything-claude-code](https://github.com/everything-claude-code/everything-claude-code) 项目（v0.1.0）的完整资产分析
+> 基于 [everything-claude-code](https://github.com/affaan-m/everything-claude-code) 项目（v0.1.0）的完整资产分析
 
 本指南帮助你快速了解 ECC（Everything Claude Code）的全部能力，包括代理、命令、技能和规则集。
 
