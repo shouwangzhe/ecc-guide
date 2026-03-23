@@ -13,6 +13,7 @@ Everything Claude Code（ECC）的完整中文指南，包含 27 个代理、59 
 | [docs/README.md](./docs/README.md) | 总览和统计 |
 | [docs/agents.md](./docs/agents.md) | 27 个专业化代理 |
 | [docs/commands.md](./docs/commands.md) | 59 个斜杠命令 |
+| [docs/rules.md](./docs/rules.md) | 59 个规则文件 |
 | [docs/skills-language.md](./docs/skills-language.md) | 语言特定技能（Go/Kotlin/Python/Rust/C++/Java/Swift/Perl） |
 | [docs/skills-framework.md](./docs/skills-framework.md) | 框架技能（Django/Laravel/Spring Boot/Next.js/SwiftUI/Nuxt） |
 | [docs/skills-engineering.md](./docs/skills-engineering.md) | 架构与工程技能（API/数据库/Docker/安全/TDD） |
