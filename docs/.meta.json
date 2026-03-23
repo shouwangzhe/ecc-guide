@@ -1,0 +1,20 @@
+{
+  "ecc_version": "0.1.0",
+  "ecc_source": "https://github.com/affaan-m/everything-claude-code",
+  "generated_at": "2026-03-23T00:00:00Z",
+  "counts": {
+    "agents": 27,
+    "commands": 59,
+    "skills": 115,
+    "rules": 59
+  },
+  "doc_files": [
+    "agents.md",
+    "commands.md",
+    "skills-language.md",
+    "skills-framework.md",
+    "skills-engineering.md",
+    "skills-ai-agent.md",
+    "skills-business.md"
+  ]
+}

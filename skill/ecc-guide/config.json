@@ -1,0 +1,109 @@
+{
+  "ecc_source": {
+    "repo_url": "https://github.com/affaan-m/everything-claude-code.git",
+    "local_ecc_path": "/Users/lvpengbin/everything-claude-code",
+    "fallback_clone_dir": "/tmp/ecc-source",
+    "clone_depth": 1
+  },
+  "docs_dir": "./docs",
+  "skill_categories": {
+    "skills-language.md": {
+      "label": "语言特定技能",
+      "patterns": [
+        "golang-*", "python-*", "kotlin-*", "rust-*", "cpp-*",
+        "java-*", "swift-*", "typescript-*", "perl-*", "pytorch-*",
+        "android-*", "compose-*", "bun-runtime"
+      ]
+    },
+    "skills-framework.md": {
+      "label": "框架技能",
+      "patterns": [
+        "django-*", "laravel-*", "springboot-*", "kotlin-ktor-*",
+        "nextjs-*", "swiftui-*", "liquid-glass-*",
+        "foundation-models-*", "nuxt*"
+      ]
+    },
+    "skills-engineering.md": {
+      "label": "架构与工程技能",
+      "patterns": [
+        "api-design", "architecture-*", "backend-*", "coding-standards",
+        "codebase-*", "content-hash-*", "database-*", "deployment-*",
+        "docker-*", "documentation-*", "e2e-testing", "mcp-server-*",
+        "plankton-*", "postgres-*", "project-guidelines-*",
+        "rules-distill", "search-first", "security-*",
+        "tdd-*", "verification-*", "blueprint", "clickhouse-*"
+      ]
+    },
+    "skills-ai-agent.md": {
+      "label": "AI 与 Agent 技能",
+      "patterns": [
+        "agent-*", "agentic-*", "ai-first-*", "ai-regression-*",
+        "autonomous-loops", "claude-api", "claude-devfleet",
+        "configure-ecc", "context-budget", "continuous-agent-loop",
+        "continuous-learning*", "cost-aware-*", "dmux-*",
+        "enterprise-*", "eval-*", "iterative-*", "nanoclaw-*",
+        "prompt-optimizer", "ralphinho-*", "regex-vs-*",
+        "skill-stocktake", "strategic-compact", "team-builder"
+      ]
+    },
+    "skills-business.md": {
+      "label": "内容与业务技能",
+      "patterns": [
+        "article-*", "carrier-*", "content-engine", "crosspost",
+        "customs-*", "data-scraper-*", "deep-research", "energy-*",
+        "exa-search", "fal-ai-*", "frontend-slides", "inventory-*",
+        "investor-*", "logistics-*", "market-research",
+        "nutrient-*", "production-*", "quality-nonconformance",
+        "returns-*", "video-*", "videodb", "visa-*", "x-api"
+      ]
+    }
+  },
+  "command_categories": {
+    "语言构建与审查": [
+      "/go-build", "/go-review", "/go-test",
+      "/kotlin-build", "/kotlin-review", "/kotlin-test",
+      "/rust-build", "/rust-review", "/rust-test",
+      "/cpp-build", "/cpp-review", "/cpp-test",
+      "/python-review", "/gradle-build", "/build-fix",
+      "/tdd", "/e2e", "/test-coverage"
+    ],
+    "代码质量": [
+      "/code-review", "/refactor-clean", "/quality-gate",
+      "/prompt-optimize", "/learn", "/learn-eval", "/rules-distill",
+      "/skill-create", "/update-codemaps", "/update-docs", "/verify"
+    ],
+    "工作流编排": [
+      "/plan", "/orchestrate", "/devfleet", "/claw", "/checkpoint",
+      "/aside", "/loop-start", "/loop-status",
+      "/multi-plan", "/multi-execute", "/multi-backend",
+      "/multi-frontend", "/multi-workflow", "/pm2", "/evolve"
+    ],
+    "会话管理": [
+      "/save-session", "/resume-session", "/sessions"
+    ],
+    "配置与管理": [
+      "/context-budget", "/model-route", "/instinct-status",
+      "/instinct-export", "/instinct-import", "/promote",
+      "/skill-health", "/harness-audit", "/projects",
+      "/docs", "/setup-pm", "/eval"
+    ]
+  },
+  "similar_tool_pairs": [
+    ["continuous-learning", "continuous-learning-v2"],
+    ["agent-eval", "eval-harness"],
+    ["autonomous-loops", "continuous-agent-loop"],
+    ["multi-plan", "multi-execute"],
+    ["multi-backend", "multi-frontend", "multi-workflow"],
+    ["devfleet", "claude-devfleet"],
+    ["context-budget", "cost-aware-llm-pipeline", "strategic-compact"],
+    ["agentic-engineering", "ai-first-engineering"],
+    ["prompt-optimizer", "prompt-optimize"],
+    ["security-review", "security-scan"]
+  ],
+  "audit": {
+    "description_min_chars": 8,
+    "description_max_chars": 60,
+    "batch_size": 20,
+    "report_output": "./docs/audit-report.md"
+  }
+}

@@ -1,0 +1,9 @@
+# Temporary ECC clone
+/tmp/ecc-source/
+
+# macOS
+.DS_Store
+
+# Audit reports are committed for history tracking
+# To exclude them, uncomment the line below:
+# docs/audit-report.md
